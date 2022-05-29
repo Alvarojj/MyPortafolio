@@ -1,0 +1,51 @@
+
+/***********************************MENU***********************************************************/
+.navegation-pag{
+    padding-bottom: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20rem;
+}
+.items1{
+    padding: 2rem;
+}
+.items2{
+    padding: 2rem;
+    text-align: right;  
+}
+.btn{
+    padding: 8px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-proyect {
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #5f5892;
+    background-color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+
+}
+/**********************************PRESENTATION******************************************************************/
+.presentation{
+    text-align: center;
+}
+.welcome{
+    margin-top: -2rem;
+    font-size: 5rem;
+    color: #2c2d4f;
+}
+.im{
+    color: #030219;
+    margin-top: -3.3rem;
+    font-size: 3rem;
+}
+.my-imag{
+    max-width: 300px;
+    max-height: 300px;
+}
