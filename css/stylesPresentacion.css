@@ -1,0 +1,59 @@
+/**********************************PRESENTATION******************************************************************/
+#presentation {
+    font-family: serif;
+    text-align: center;
+}
+
+.welcome {
+    color: #242F9B;
+    font-size: 2.7rem;
+
+}
+
+.im {
+    margin-top: -1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+}
+
+#my-imag {
+    margin-top: 1rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 10rem;
+}
+/**********************************************************MEDIA CUERY***********************************************************************************/
+
+
+@media (min-width:500px) {
+
+    .welcome {
+        font-size: 3rem;
+    }
+
+    .im {
+        color: rgb(0, 0, 0, 0.9);
+        font-size: 2rem;
+    }
+
+    #my-imag {
+        margin-top: 2rem;
+        width: 275px;
+        height: 275px;
+    }
+
+}
+
+@media(min-width: 780px){
+    .welcome{
+        font-size: 4.5rem;
+    }
+    .im{
+        font-size: 3.6rem;
+    }
+
+    #my-imag{
+        width: 300px;
+        height: 300px;
+    }
+}

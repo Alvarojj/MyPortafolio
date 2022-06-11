@@ -1,0 +1,27 @@
+/************************************My knowledges*********************************************************************/
+#My-knowledge {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+}
+
+.knowledge-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem 4rem;
+    column-gap: 4rem;
+    row-gap: 2rem;
+}
+
+/**********************************************************MEDIA CUERY***********************************************************************************/
+@media (min-width:500px) {
+ 
+    .knowledge-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:780px) {
+    .knowledge-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

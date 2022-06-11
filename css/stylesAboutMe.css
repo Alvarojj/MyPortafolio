@@ -1,0 +1,72 @@
+/***************************************ABOUT ME***************************************************************/
+#About-me {
+    background: #242F9B;
+    padding-top: 3rem;
+    margin-top: -6rem;
+    margin-right: 0.3rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #646FD4;
+    /*    background-image: url(../img/Fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+*/
+}
+
+.About-me-who-iam {
+    margin-top: 3rem;
+}
+
+.About-me-title {
+    color: #99C4C8;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.About-me-content-p {
+    text-align: center !important;
+    margin-top: -1.5rem;
+    padding: 1rem;
+}
+
+.About-me-p {
+    color: #DBDFFD;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: lighter;
+    line-height: 20px;
+}
+/**********************************************************MEDIA CUERY***********************************************************************************/
+
+
+@media (min-width:500px) {
+    .About-me-who-iam {
+        margin-top: 3.5rem;
+    }
+
+    .About-me-title {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .About-me-content-p {
+        padding: 1.5rem 3rem;
+    }
+
+    .About-me-p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+@media(min-width:780px){
+    .About-me-title{
+        font-size: 3.5rem;
+    }
+    .About-me-content-p{
+        padding: 1.5rem 6rem;
+    }
+    .About-me-p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

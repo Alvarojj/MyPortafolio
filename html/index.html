@@ -5,129 +5,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>My portafolio</title>
+    <link rel="stylesheet" href="../css/stylesGenerales.css">
+    <link rel="stylesheet" href="../css/stylesMenu.css">
+    <link rel="stylesheet" href="../css/stylesPresentacion.css">
+    <link rel="stylesheet" href="../css/stylesAboutMe.css">
+    <link rel="stylesheet" href="../css/stylesMyKnowledges.css">
+    <link rel="stylesheet" href="../css/stylesMyProyects.css">
+    <link rel="stylesheet" href="../css/stylesFooter.css">
+    <script defer src="../JavaScript/index.js"></script>
 </head>
 
 <body>
+    <header>
+        <div class="contemenu">
+            <a class="logo" href="#">
+                <img class="Logo" src="..//img/programer_logo.png" alt="Logo de java">
+            </a>
+            <nav class="navegation-pag" id="nav">
+                <ul>
+                    <li><a class="btn" id="btn" href="#my-imag">About me</a></li>
+                    <li><a class="btn" id="btn1" href="#My-knowledge">My knowledge</a></li>
+                    <li><a class="btn" id="btn2" href="#My-Proyect">My proyects</a></li>
+                    <li><a class="btn" id="btn3" href="#Contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="Menu" id="menu">
+                <img class="btnMenu" src="../img/Menu-icon.png" alt="">
+            </button>
+        </div>
+    </header>
+    <div class="conte">
+        <section id="presentation">
+            <div class="quien soy">
+                <h1 class="welcome">Welcome to a porfolio</h1>
+                <h3 class="im">of a Java developer</h3>
+                <img id="my-imag" src="../img/persona.jpg" alt="Imagen mia">
+            </div>
+        </section>
+        <section id="About-me">
+            <div class="About-me-who-iam">
+                <h1 class="About-me-title">About me.</h1>
+                <div class="About-me-content-p">
+                    <p class="About-me-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus culpa
+                        ipsum
+                        sed a ad, voluptatibus
+                        laboriosam sint velit modi facere, aliquam ratione minus numquam quis nam necessitatibus.
+                        Voluptatem,
+                        blanditiis, voluptatum necessitatibus enim tenetur temporibus repellendus perferendis autem
+                        animi
+                        mollitia tempore minima ex repudiandae harum? Aut voluptates facilis corrupti totam ipsa.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nulla.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="My-knowledge">
+            <div>
+                <h1>My knowledge</h1>
+                <div class="knowledge-grid">
+                    <div class="objet-knowledge">
+                        <h4>Java</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                    <div class="objet-knowledge">
+                        <h4>POO</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                    <div class="objet-knowledge">
+                        <h4>Data structure</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                    <div class="objet-knowledge">
+                        <h4>Git and Github</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                    <div class="objet-knowledge">
+                        <h4>Database</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                    <div class="objet-knowledge">
+                        <h4>Html and css</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus
+                            neque
+                            quas placeat esse dolor hic similique itaque!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="My-Proyect">
+            <div class="container">
+                <h1 class="My-proyect-title">My proyects.</h1>
+                <div class="proyect-grid">
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect1">
+                    </div>
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect2">
+                    </div>
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect3">
+                    </div>
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect4">
+                    </div>
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect5">
+                    </div>
+                    <div class="objeto-proyect">
+                        <img src"" alt="Proyect6">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <nav class="navegation-pag">
-        <div class="grid-container">
-            <div class="items1">
-                <a class="btn" href="#"><img class="Logo-java" src="../img/logo.jpg" alt="Logo de java"></a>
+        <footer id="Contact">
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam qui rerum, quam voluptates quidem odio.
+            </h4>
+            <div class="content-footer">
+                <ul>
+                    <li><a href=""><img src="../img/logo.gmail.ico" alt="Logo de gmail"></a></li>
+                    <li><a href=""><img src="../img/facebook.ico" alt=""></a></li>
+                    <li><a href=""><img src="../img/linkedin.ico" alt=""></a></li>
+                    <li><a href=""><img src="../img/github.ico" alt=""></a></li>
+                    <li><a href=""><img src="../img/twitter.ico" alt=""></a></li>
+                </ul>
             </div>
-            <div class="items2">
-                <a class="btn">About me</a>
-                <a class="btn">My knowledge</a>
-                <a class="btn">Contact</a>
-                <a class="btn-proyect">My proyect</a>
-            </div>
-        </div>  
-    </nav>
-    <section class="presentation">
-        <div class="quien soy">
-            <h1 class="welcome">Welcome to a porfolio</h1>
-            <h3 class="im">of a Java developer</h3>
-            <img class="my-imag" src="../img/persona.jpg" alt="Imagen mia">
-        </div>
-    </section>
-    <section class="About-me">
-        <div class="About-me-who-iam">
-            <h1 class="About-me-title">About me.</h1>
-            <div class="About-me-content-p">
-                <p class="About-me-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus culpa ipsum sed a ad, voluptatibus
-                    laboriosam sint velit modi facere, aliquam ratione minus numquam quis nam necessitatibus. Voluptatem,
-                    blanditiis, voluptatum necessitatibus enim tenetur temporibus repellendus perferendis autem animi
-                    mollitia tempore minima ex repudiandae harum? Aut voluptates facilis corrupti totam ipsa.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nulla.
-                </p>
-            </div>
-           
-        </div>
-    </section>
-    <section class="My-knowledge">
-        <div>
-            <h1>My knowledge</h1>
-            <div class="knowledge-grid">
-                <div class="objet-knowledge">
-                    <img src="#" alt="Java">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-                <div class="objet-knowledge">
-                    <img src="#" alt="POO">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-                <div class="objet-knowledge">
-                    <img src="#" alt="data-structure">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-                <div class="objet-knowledge">
-                    <img src="#" alt="git-and-github">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-                <div class="objet-knowledge">
-                    <img src="#" alt="database">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-                <div class="objet-knowledge">
-                    <img src="#" alt="html-and-css">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis facilis possimus neque
-                        quas placeat esse dolor hic similique itaque!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="My-Proyect">
-        <div class="container">
-            <h1 class="My-proyect-title">My proyects.</h1>
-            <div class="proyect-grid">
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect1">
-                </div>
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect2">
-                </div>
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect3">
-                </div>
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect4">
-                </div>
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect5">
-                </div>
-                <div class="objeto-proyect">
-                    <img src"" alt="Proyect6">
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <footer>
-        <div class="Contact">
-            <div>
-                <a href="">gmail</a>
-            </div>
-            <div>
-                <a href="">Facebook</a>
-            </div>
-            <div>
-                <a href="">Linkeding</a>
-            </div>
-            <div>
-                <a href="">Github</a>
-            </div>
-            <div>
-                <a href="">Phone</a>
-            </div>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>

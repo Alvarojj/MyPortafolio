@@ -1,0 +1,133 @@
+/***********************************MENU***********************************************************/
+header {
+    position: fixed;
+    background: #242F9B;
+    width: 100%;
+    top: 0px;
+    padding: 0px 10px;
+    max-height: 45px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.9);
+
+}
+
+.contemenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.Menu {
+    z-index: 2;
+}
+
+.Menu {
+    background: none;
+    border: none;
+}
+
+.Logo{
+    margin-top: -3px;
+    margin-left: 20px;
+    height: 55px;
+}
+
+.btnMenu {
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.navegation-pag {
+    position: fixed;
+    background: #242F9B;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px;
+    top: -1000%;
+    left: 0;
+    width: 100%;
+    transition: 0.1s all;
+
+}
+
+.navegation-pag ul li {
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.navegation-pag ul li a {
+    color: white;
+}
+
+.navegation-pag ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.active {
+    top: 0;
+}
+
+/**********************************************************MEDIA CUERY   500px***********************************************************************************/
+
+@media (min-width:500px) {
+
+    .contemenu {
+        display: flex;
+        max-width: 997px;
+        margin: 0 auto;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+    .navegation-pag {
+        background: none;
+        position: initial;
+        border: none;
+        margin-top: 0;
+        transition: none;
+        height: 44px;
+    }
+
+    .navegation-pag ul {
+        display: flex;
+        height: 44px;
+        align-items: center;
+        float: right;
+    }
+
+    .navegation-pag ul li {
+        padding: 0px 10px;
+        cursor: pointer;
+    }
+
+    .navegation-pag ul li a:hover {
+        color: #646FD4;
+    }
+
+    .Logo {
+        margin-top: -3px;
+        height: 55px;
+    }
+}
+
+@media (min-width: 780px) {
+    .btn {
+        font-size: 18px;
+    }
+
+    .navegation-pag ul li {
+        padding: 0px 14px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .Logo {
+        margin-top: -7px;
+        height: 60px;
+    }
+}
