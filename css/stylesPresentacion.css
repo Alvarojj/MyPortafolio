@@ -2,40 +2,49 @@
 #presentation {
     font-family: serif;
     text-align: center;
+    margin-bottom: 2rem;
+    height: 200px;
+}
+#presentation div{
+    padding: 60px 0;
+}
+#presentation .titulo{
+    font-size: 40px;
+    color: #800080;
+    font-style: normal;
+    font-weight: bold;
 }
 
-.welcome {
-    color: #242F9B;
-    font-size: 2.7rem;
-
+#presentation .segundotitulo{
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: bold;
 }
 
-.im {
-    margin-top: -1rem;
-    color: rgb(0, 0, 0);
-    font-size: 1.8rem;
-}
 
-#my-imag {
-    margin-top: 1rem;
-    width: 250px;
-    height: 250px;
-    border-radius: 10rem;
-}
 /**********************************************************MEDIA CUERY***********************************************************************************/
 
 
 @media (min-width:500px) {
-
-    .welcome {
-        font-size: 3rem;
+    #presentation {
+        height: 350px;
     }
-
-    .im {
-        color: rgb(0, 0, 0, 0.9);
-        font-size: 2rem;
+    #presentation div{
+        padding: 80px 0;
     }
-
+    #presentation .titulo{
+        font-size: 70px;
+        color: #800080;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    #presentation .segundotitulo{
+        font-size: 50px;
+        color: whitesmoke;
+        font-style: normal;
+        font-weight: bold;
+    }
     #my-imag {
         margin-top: 2rem;
         width: 275px;
@@ -45,13 +54,25 @@
 }
 
 @media(min-width: 780px){
-    .welcome{
-        font-size: 4.5rem;
+    #presentation {
+        height: 550px;
     }
-    .im{
-        font-size: 3.6rem;
+    #presentation div{
+        padding: 140px 0;
     }
-
+    #presentation .titulo{
+        font-size: 120px;
+        color: #800080;
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    #presentation .segundotitulo{
+        font-size: 70px;
+        color: whitesmoke;
+        font-style: normal;
+        font-weight: bold;
+    }
     #my-imag{
         width: 300px;
         height: 300px;

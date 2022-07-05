@@ -1,21 +1,16 @@
 /***************************************ABOUT ME***************************************************************/
 #About-me {
-    background: #242F9B;
-    padding-top: 3rem;
-    margin-top: -6rem;
-    margin-right: 0.3rem;
-    border-radius: 10px;
-    box-shadow: 10px 10px 15px #646FD4;
-    /*    background-image: url(../img/Fondo.jpg);
+    background-image: url(../img/baner.png);
     background-size: cover;
     background-position: center center;
-*/
+    text-align: center;
 }
-
-.About-me-who-iam {
-    margin-top: 3rem;
+#my-imag {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
 }
-
 .About-me-title {
     color: #99C4C8;
     font-size: 2.5rem;
@@ -45,7 +40,8 @@
 
     .About-me-title {
         font-size: 3rem;
-        text-align: left;
+    margin: -3rem 0px 0px 0px;
+
     }
 
     .About-me-content-p {
@@ -59,6 +55,14 @@
 }
 
 @media(min-width:780px){
+    #About-me {
+        height: 550px;
+    }
+    #my-imag {
+        margin-top: 40px;
+        width: 300px;
+        height: 300px;
+    }
     .About-me-title{
         font-size: 3.5rem;
     }

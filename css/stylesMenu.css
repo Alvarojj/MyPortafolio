@@ -1,13 +1,11 @@
 /***********************************MENU***********************************************************/
 header {
     position: fixed;
-    background: #242F9B;
+    background: linear-gradient(to right,#094293, #800080);
     width: 100%;
     top: 0px;
     padding: 0px 10px;
-    max-height: 45px;
-    border-bottom: 1px solid rgb(255, 255, 255, 0.9);
-
+    height: 60px;
 }
 
 .contemenu {
@@ -26,9 +24,9 @@ header {
 }
 
 .Logo{
-    margin-top: -3px;
+    margin-top: -5px;
     margin-left: 20px;
-    height: 55px;
+    height: 65px;
 }
 
 .btnMenu {
@@ -39,7 +37,7 @@ header {
 
 .navegation-pag {
     position: fixed;
-    background: #242F9B;
+    background: linear-gradient(to right,#094293, #800080);
     margin-top: 40px;
     text-align: center;
     padding: 0px;
@@ -86,7 +84,7 @@ header {
         background: none;
         position: initial;
         border: none;
-        margin-top: 0;
+        margin: auto 0px;
         transition: none;
         height: 44px;
     }
@@ -103,14 +101,6 @@ header {
         cursor: pointer;
     }
 
-    .navegation-pag ul li a:hover {
-        color: #646FD4;
-    }
-
-    .Logo {
-        margin-top: -3px;
-        height: 55px;
-    }
 }
 
 @media (min-width: 780px) {
@@ -126,8 +116,4 @@ header {
         padding: 0;
     }
 
-    .Logo {
-        margin-top: -7px;
-        height: 60px;
-    }
 }
