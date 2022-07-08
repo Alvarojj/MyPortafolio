@@ -29,12 +29,12 @@ btn3.addEventListener('click', function () {
 });
 
 var typed = new Typed('.type', {
-    strings: ['<i class="titulo">BIENDENIDOS <br></i> <i class="segundotitulo">A mi portafolio.</i> '],
+    strings: ['<i class="titulo">BIENVENIDOS <br></i> <i class="segundotitulo">A mi portafolio.</i> '],
     stringsElement: '#typed-strings',
     typeSpeed:30, 
     backSpeed: 10,
     startDelay: 700,
     loop: true,
-    loopCount: 5,
+    loopCount: 1,
     showCursor: false
   });

@@ -1,14 +1,35 @@
 /************************************* Footer*************************************************************************/
 
 #Contact {
-    border-top: 1px solid rgba(0, 0, 0, 0.548);
     padding: 5px 30px;
-}
-
-#Contact h4 {
     text-align: center;
 }
 
+#Contact h4 {
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+textarea{
+    background-color: white;
+    width: 95%;
+    outline: none;
+    resize: none;
+    color: rgba(0, 0, 0, 0.742);
+}
+.btnEnviar{
+    padding: 7px 15px;
+    background-color: #094293;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btnEnviar:hover{
+    background-color: #800080;
+    cursor: pointer;
+}
 .content-footer ul {
     display: flex;
     justify-content: center;
@@ -16,27 +37,64 @@
 }
 
 .content-footer li {
-    margin: 0px 5px;
+    margin: 0px 15px;
 }
 
-.content-footer img {
-    width: 25px;
-    height: 25px;
-
+.content-footer i {
+    font-size: 20px;
+    color: white;
+}
+.content-footer i:hover{
+    cursor: pointer;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.content-footer li p{
+    display: none;
 }
 /**********************************************************MEDIA CUERY***********************************************************************************/
 
 @media (min-width:500px) {
-    #Contact {
+    #Contact{
+        display: flex;
         border-top: 1px solid rgba(0, 0, 0, 0.548);
         padding: 5px 30px;
+        text-align: left;
     }
-
+    .opinion{
+        width: 500px;
+    }
     #Contact h4 {
-        text-align: center;
+        font-size: 25px;
+    }
+    .content-footer ul{
+        display: block;
+    }
+    .content-footer li {
+        display: flex;
+        margin: 12px 0;
+    }
+    .content-footer i:hover{
+        cursor: none;
+        font-size: 20px;
+        transition: none;
+    }
+    .content-footer li p{
+        display: block;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-left: 10px;
     }
 
-    .content-footer li {
-        margin: 0px 12px;
+    @media (min-width:780px) {
+        .content-footer{
+            margin-left: 100px;
+        }
+        .content-footer i {
+            font-size: 25px;
+        }
+        .content-footer li p{
+            font-size: 17px;
+        }
     }
 }
