@@ -3,6 +3,10 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.548);
 }
 
+#My-knowledge h1 {
+    color: #800080;
+}
+
 .knowledge-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -11,10 +15,14 @@
     row-gap: 2rem;
 }
 
+.objet-knowledge h4 {
+    color: #99C4C8;
+}
+
 /**********************************************************MEDIA CUERY***********************************************************************************/
 @media (min-width:500px) {
- 
-    .knowledge-grid{
+
+    .knowledge-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }

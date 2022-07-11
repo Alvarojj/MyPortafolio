@@ -1,24 +1,22 @@
 /**********************************PRESENTATION******************************************************************/
 #presentation {
     font-family: serif;
-    text-align: center;
-    margin-bottom: 2rem;
-    height: 200px;
-}
-#presentation div{
-    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #presentation .titulo{
-    font-size: 40px;
+    font-size: 45px;
     color: #800080;
     font-style: normal;
     font-weight: bold;
 }
-
 #presentation .segundotitulo{
     color: whitesmoke;
     font-style: normal;
     font-weight: bold;
+    font-size: 35px;
 }
 
 
@@ -26,12 +24,6 @@
 
 
 @media (min-width:500px) {
-    #presentation {
-        height: 350px;
-    }
-    #presentation div{
-        padding: 80px 0;
-    }
     #presentation .titulo{
         font-size: 70px;
         color: #800080;
@@ -54,14 +46,8 @@
 }
 
 @media(min-width: 780px){
-    #presentation {
-        height: 550px;
-    }
-    #presentation div{
-        padding: 140px 0;
-    }
     #presentation .titulo{
-        font-size: 120px;
+        font-size: 100px;
         color: #800080;
         font-style: normal;
         font-weight: bold;
@@ -77,4 +63,23 @@
         width: 300px;
         height: 300px;
     }
+
+    @media(min-width: 900px){
+        #presentation .titulo{
+            font-size: 120px;
+            color: #800080;
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        #presentation .segundotitulo{
+            font-size: 70px;
+            color: whitesmoke;
+            font-style: normal;
+            font-weight: bold;
+        }
+        #my-imag{
+            width: 300px;
+            height: 300px;
+        }
 }
