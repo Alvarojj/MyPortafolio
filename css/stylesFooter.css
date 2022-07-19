@@ -40,7 +40,7 @@ textarea{
     margin: 0px 15px;
 }
 
-.content-footer i {
+.footerIcone{
     font-size: 20px;
     color: white;
 }
@@ -75,11 +75,11 @@ textarea{
         margin: 12px 0;
     }
     .content-footer i:hover{
-        cursor: none;
-        font-size: 20px;
+        cursor: default;
+        font-size: 25px;
         transition: none;
     }
-    .content-footer li p{
+    .icontext{
         display: block;
         font-weight: lighter;
         font-size: 13px;
@@ -93,7 +93,7 @@ textarea{
         .content-footer i {
             font-size: 25px;
         }
-        .content-footer li p{
+        .icontext{
             font-size: 17px;
         }
     }
