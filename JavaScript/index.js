@@ -78,42 +78,30 @@ objetoProyect3.addEventListener('mouseout', function(){
     btnProyect3.classList.toggle("btnProyect");
 });
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-// const objetoProyect4 = document.getElementById('objetoproyect4')
-// const btnProyect4 = document.getElementById('btnsProyect4')
 
 
-// objetoProyect4.addEventListener('mouseover', function(){
-//     btnProyect4.classList.toggle("btnProyect");
-// });
+const formulario = document.querySelector("#formulario")
+formulario.addEventListener("submit", async(e)=>{
+    e.preventDefault();
+    const information = document.querySelector("#txt_opinion").value 
 
-// objetoProyect4.addEventListener('mouseout', function(){
-//     btnProyect4.classList.toggle("btnProyect");
-// });
-// //***************************************************************************************+ */
+    fetch('http://localhost:8080',{
+        method: "POST",
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+        body: JSON.stringify({
+            'txt_opinion': information
+        })
+    })
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 
-// const objetoProyect5 = document.getElementById('objetoproyect5')
-// const btnProyect5 = document.getElementById('btnsProyect5')
+    alert('Se guardo tu opinión muchas gracias por tu mensaje')
 
-
-// objetoProyect5.addEventListener('mouseover', function(){
-//     btnProyect5.classList.toggle("btnProyect");
-// });
-
-// objetoProyect5.addEventListener('mouseout', function(){
-//     btnProyect5.classList.toggle("btnProyect");
-// });
-
-// //**************************************************************************************** */
-
-// const objetoProyect6 = document.getElementById('objetoproyect6')
-// const btnProyect6 = document.getElementById('btnsProyect6')
+})
 
 
-// objetoProyect6.addEventListener('mouseover', function(){
-//     btnProyect6.classList.toggle("btnProyect");
-// });
 
-// objetoProyect6.addEventListener('mouseout', function(){
-//     btnProyect6.classList.toggle("btnProyect");
-// });
